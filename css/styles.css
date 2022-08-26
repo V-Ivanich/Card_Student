@@ -31,6 +31,10 @@ hr {
   margin: 10px auto;
   border-radius: 10px;
 }
+.table-courses-mobile {
+  display: none;
+}
+
 ul li {
   margin: 10px 20px;
 }
@@ -56,6 +60,15 @@ span {
   }
   .iconki {
     display: none;
+  }
+  .div-row {
+    display: block;
+  }
+  .table-courses {
+    display: none;
+  }
+  .table-courses-mobile {
+    display: block;
   }
 }
 .mini-block-foto {
@@ -139,7 +152,7 @@ li:hover {
   border-radius: 6px;
 }
 .list, .hobbi {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .back-color {
