@@ -62,14 +62,16 @@ span {
     display: none;
   }
   .div-row {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
   .table-courses {
     display: none;
   }
   .table-courses-mobile {
-    display: block;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .mini-block-foto {
   border-radius: 20px;
